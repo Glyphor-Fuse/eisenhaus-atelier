@@ -1,21 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-bg: #080808;
+  --color-text: #F5F5F7;
+  --color-primary: #A1A1AA;
+  --color-secondary: #27272A;
+  --color-accent: #3B82F6;
+}
+
 @layer base {
-  :root {
-    /* The Agent should overwrite these HSL values based on the Visual Manifesto */
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-    --accent: 240 4.8% 95.9%;
-    --border: 240 5.9% 90%;
-    --radius: 0.5rem;
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
   }
 }
 
-body {
-  @apply bg-background text-foreground antialiased;
-  font-feature-settings: "rlig" 1, "calt" 1;
+.perspective-text {
+  overflow: hidden;
+  position: relative;
+}
+
+.perspective-text span {
+  display: block;
+  transform: translateY(100%);
+  animation: reveal 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+@keyframes reveal {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+  border-radius: 10px;
 }
