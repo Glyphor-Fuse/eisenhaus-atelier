@@ -44,7 +44,7 @@ const Hero = () => {
       >
         <div className="relative w-full h-[80vh] md:w-2/3 md:h-[70vh]">
           <img 
-            src="<span className="block"><img src="https://images.pexels.com/photos/28870734/pexels-photo-28870734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="A captivating abstract view of a sunset reflecting on water with a unique artistic form." loading="lazy" /><a href="https://www.pexels.com/photo/surreal-sunset-reflection-with-abstract-form-28870734/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Steve Johnson on Pexels</a></span>" 
+            src="https://images.pexels.com/photos/28870734/pexels-photo-28870734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
             alt="Hero Background" 
             className="w-full h-full object-cover grayscale brightness-50"
           />

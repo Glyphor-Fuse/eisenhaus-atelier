@@ -5,25 +5,25 @@ const projects = [
   {
     title: "Vortex House",
     category: "Residential",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/11254959/pexels-photo-11254959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Detailed textured surface of a gray concrete wall, perfect for backgrounds." loading="lazy" /><a href="https://www.pexels.com/photo/a-gray-concrete-surface-11254959/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Seamlesstextures on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/11254959/pexels-photo-11254959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     width: "md:col-span-2"
   },
   {
     title: "Obsidian Gallery",
     category: "Cultural",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/29150799/pexels-photo-29150799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Black and white photograph of a modern dome in Kassel mall showcasing architectural symmetry and design." loading="lazy" /><a href="https://www.pexels.com/photo/modern-architectural-dome-in-kassel-mall-29150799/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Wolfgang Weiser on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/29150799/pexels-photo-29150799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     width: "md:col-span-1"
   },
   {
     title: "Echo Pavilion",
     category: "Public",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/3410514/pexels-photo-3410514.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Black and white photo of two men in suits descending spiral stairs inside a modern building." loading="lazy" /><a href="https://www.pexels.com/photo/men-walking-downstairs-in-building-3410514/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Joe Howell on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/3410514/pexels-photo-3410514.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     width: "md:col-span-1"
   },
   {
     title: "Concrete Rift",
     category: "Office",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/31438131/pexels-photo-31438131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Black and white photo of a brutalist parking garage exterior." loading="lazy" /><a href="https://www.pexels.com/photo/modern-brutalist-architecture-in-black-white-31438131/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Gabriel Eagland on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/31438131/pexels-photo-31438131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     width: "md:col-span-2"
   }
 ];

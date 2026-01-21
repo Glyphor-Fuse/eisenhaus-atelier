@@ -12,7 +12,7 @@ const StudioInfo = () => {
             className="relative"
           >
             <img 
-              src="<span className="block"><img src="https://images.pexels.com/photos/8740555/pexels-photo-8740555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Black chair casting shadows on a concrete wall showcasing minimalist design and light play." loading="lazy" /><a href="https://www.pexels.com/photo/a-chair-near-the-concrete-wall-8740555/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Аlex Ugolkov on Pexels</a></span>" 
+              src="https://images.pexels.com/photos/8740555/pexels-photo-8740555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
               alt="Studio"
               className="w-full grayscale brightness-75 border-l-4 border-accent"
             />

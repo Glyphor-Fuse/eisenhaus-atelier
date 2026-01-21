@@ -5,19 +5,19 @@ const projects = [
   {
     title: "Vesper House",
     category: "Architecture",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/10347251/pexels-photo-10347251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Striking modern architecture showcasing geometric patterns and concrete design in an urban setting." loading="lazy" /><a href="https://www.pexels.com/photo/metal-modern-architecture-on-concrete-pavement-10347251/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Evan Velez Saxer on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/10347251/pexels-photo-10347251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     size: "col-span-2 md:col-span-1"
   },
   {
     title: "Liquid State",
     category: "Digital Art",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/8168564/pexels-photo-8168564.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Abstract artwork featuring intricate textures and dynamic wave patterns creating a flowing design." loading="lazy" /><a href="https://www.pexels.com/photo/abstract-digital-illustration-8168564/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Giuseppe DiDio on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/8168564/pexels-photo-8168564.png?auto=compress&cs=tinysrgb&h=650&w=940",
     size: "col-span-2"
   },
   {
     title: "Monolith",
     category: "Design",
-    image: "<span className="block"><img src="https://images.pexels.com/photos/29399428/pexels-photo-29399428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Elegant bathroom featuring a sleek white basin and marble tiles for a luxurious look." loading="lazy" /><a href="https://www.pexels.com/photo/modern-bathroom-design-with-white-basin-and-marble-tiles-29399428/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Pușcaș Adryan on Pexels</a></span>",
+    image: "https://images.pexels.com/photos/29399428/pexels-photo-29399428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     size: "col-span-2 md:col-span-1"
   }
 ];

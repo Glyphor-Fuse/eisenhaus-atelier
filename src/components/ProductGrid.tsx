@@ -7,28 +7,28 @@ const products = [
     name: 'V-01 SHELL JACKET',
     price: '€540',
     category: 'Outerwear',
-    image: '<span className="block"><img src="https://images.pexels.com/photos/8107948/pexels-photo-8107948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Stylish woman in cyberpunk sunglasses and leather jacket illuminated by neon lights, embodying futuristic fashion." loading="lazy" /><a href="https://www.pexels.com/photo/woman-wearing-black-jacket-looking-down-8107948/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Mikhail Nilov on Pexels</a></span>'
+    image: 'https://images.pexels.com/photos/8107948/pexels-photo-8107948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
   },
   {
     id: '02',
     name: 'CARGO SYSTEM PANT',
     price: '€320',
     category: 'Legwear',
-    image: '<span className="block"><img src="https://images.pexels.com/photos/27969611/pexels-photo-27969611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="A young adult in futuristic attire, featuring a tactical mask and tech gear, posing confidently." loading="lazy" /><a href="https://www.pexels.com/photo/a-man-in-a-black-and-white-outfit-with-goggles-27969611/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Eden FC on Pexels</a></span>'
+    image: 'https://images.pexels.com/photos/27969611/pexels-photo-27969611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
   },
   {
     id: '03',
     name: 'ATELIER VEST [REV-2]',
     price: '€280',
     category: 'Utility',
-    image: '<span className="block"><img src="https://images.pexels.com/photos/7688547/pexels-photo-7688547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Model in cyberpunk attire with prosthetic arm and futuristic sunglasses, evoking a high-tech, digital ambience." loading="lazy" /><a href="https://www.pexels.com/photo/man-in-bulletproof-vest-with-sunglasses-on-face-7688547/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Yaroslav Shuraev on Pexels</a></span>'
+    image: 'https://images.pexels.com/photos/7688547/pexels-photo-7688547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
   },
   {
     id: '04',
     name: 'VOID BASE LAYER',
     price: '€110',
     category: 'Essentials',
-    image: '<span className="block"><img src="https://images.pexels.com/photos/15573565/pexels-photo-15573565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Stainless steel handrail casting shadows in a minimalist black and white style." loading="lazy" /><a href="https://www.pexels.com/photo/corrimao-de-metal-em-preto-e-branco-com-luz-do-sol-refletindo-na-parede-15573565/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Ruan Richard Rodrigues on Pexels</a></span>'
+    image: 'https://images.pexels.com/photos/15573565/pexels-photo-15573565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
   }
 ];
 
